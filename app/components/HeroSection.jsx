@@ -3,14 +3,21 @@
 import React from 'react'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation'
+import { motion } from 'framer-motion'
 
 const HeroSection = () => {
   return (
-    <section>
+    <section id="hero">
         <div className="grid grid-cols-1 lg:grid-cols-12 sm:grid-cols-12">
-            <div className="col-span-7 place-self-center text-center sm:text-left">
-                <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
+            <motion.div 
+                initial={{ opacity: 0, scale: 0.5 }} 
+                animate={{ opacity: 1, scale: 1}} 
+                transition={{ duration: 0.5 }} 
+                className="col-span-7 place-self-center text-center sm:text-left"
+            >
+                <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-yellow-600">Hello, I'm{" "}</span> 
+                    <br></br>
                     <TypeAnimation 
                         sequence = {[
                             "Yash",
@@ -34,11 +41,15 @@ const HeroSection = () => {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
                 <div>
-                    <button className='px-6 py-3 rounded-full w-full sm:w-fit mr-4 mt-4 bg-gradient-to-br from-yellow-500 via-orange-400 to-red-500 hover:bg-slate-200 text-white'>
+                    <a 
+                        href="/Yash_Kataria_Resume.pdf" 
+                        className='inline-block px-6 py-3 rounded-full w-full sm:w-fit mr-4 mt-4 bg-gradient-to-br from-yellow-500 via-orange-400 to-red-500 hover:bg-slate-200 text-white'
+                        download={true}
+                    >
                         Download CV
-                    </button>
+                    </a>
                 </div>
-            </div>
+            </motion.div>   
             <div className="col-span-5 place-self-center mt-8 lg:mt-0">
                 <div className="rounded-full bg-[#181818] w-[300px] h-[300px] lg:w-[400px] lg:h-[400px]">
                     <Image

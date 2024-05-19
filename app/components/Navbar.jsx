@@ -1,23 +1,23 @@
 "use client";
 
 import Link from 'next/link'
+import { Link as ScrollLink } from 'react-scroll'
 import React, { useState } from 'react'
-import NavLink from './NavLink'
 import MenuOverlay from './MenuOverlay'
 import { MenuIcon, XIcon } from '@heroicons/react/solid'
 
 const navlinks = [
     {
         title: "About",
-        path: "#about",
+        path: "about",
     },
     {
         title: "Projects",
-        path: "#projects",
+        path: "projects",
     },
     {
         title: "Contact",
-        path: "#contact",
+        path: "contact",
     },
 ]
 
@@ -26,9 +26,14 @@ const Navbar = () => {
   return (
     <nav className='fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100'>
         <div className='flex flex-wrap items-center justify-between mx-auto lg:mr-6 p-8'>
-            <Link href={"/"} className='text-2xl md:text-5xl text-white font-semibold'>
+            <ScrollLink
+                to="hero"
+                smooth={true}
+                duration={500}
+                className="text-2xl md:text-5xl text-white font-semibold cursor-pointer"
+            >
                 LOGO
-            </Link>
+            </ScrollLink>
             <div className='mobile-menu block md:hidden'>
                 {
                     !navbarOpen ? (
@@ -46,7 +51,18 @@ const Navbar = () => {
                 <ul className='flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0'>
                     { navlinks.map((link,index) => (
                         <li key={index} >
-                            <NavLink href={link.path} title={link.title} />
+                            <ScrollLink
+                                to={link.path}
+                                smooth={true}
+                                duration={500}
+                                className='block py-2 pl-3 pr-4 text-[#ADB7BE] hover:text-white sm:text-xl rounded md:p-0 cursor-pointer'
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    setNavbarOpen(false);
+                                }}
+                            >
+                                {link.title}
+                            </ScrollLink>
                         </li>
                     )) }
                 </ul>
