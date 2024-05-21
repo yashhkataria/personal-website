@@ -13,7 +13,7 @@ const ContactSection = () => {
             <h5 className='text-xl text-white font-bold my-2'>Let's Connect</h5>
             <p className='text-[#ADB7BE] mb-4 max-w-md'>
                 {" "}
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                I am always open to new opportunities and collaborations. Feel free to reach out to me on any of the following platforms.
             </p>
             <div className='socials flex flex-row'>
                 <Link href='https://github.com/yashhkataria'>

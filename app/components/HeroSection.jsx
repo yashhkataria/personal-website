@@ -38,7 +38,7 @@ const HeroSection = () => {
                     />
                 </h1>
                 <p className="text-[#ADB7BE] mb-2 text-lg lg:text-xl">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Dedicated and results-driven student with a passion for technology and its use for problem-solving. I thrive on challenges and am known for my ability to deliver impactful solutions that positively impact organizations.
                 </p>
                 <div>
                     <a 

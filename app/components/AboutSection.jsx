@@ -10,10 +10,10 @@ const TAB_DATA = [
         id: "Skills",
         content: (
             <ul className='list-disc pl-2'>
-                <li>Node.js</li>
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Express</li>
+                <li><b>Languages - </b>C/C++, Python</li>
+                <li><b>Web Development - </b>React.js, Node.js, Next.js, Express</li>
+                <li><b>App Development - </b>Flutter</li>
+                <li><b>Databases - </b>MySQL, MongoDB</li>
             </ul>
         )
     },
@@ -23,7 +23,7 @@ const TAB_DATA = [
         id: "Education",
         content: (
             <ul className='list-disc pl-2'>
-                <li>B.Tech in Electronics and Communication Engineering, Indian Institute of Technology(IIT), Guwahati</li>
+                <li>B.Tech - Indian Institute of Technology(IIT), Guwahati</li>
             </ul>
         )
     }
@@ -51,10 +51,7 @@ const AboutSection = () => {
             <div className='mt-4 md:mt-0 text:left flex flex-col h-full'>
                 <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
                 <p className='text-base lg:text-lg'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Hey there! I am Yash, a final year B.Tech student from IIT Guwahati. I am majoring in Electronics and Communication Engineering and the fact that I am not interested in my major is proved by the existence of this website. I am a self-taught developer and love to build things that make a difference. This passion drives me to learn new technologies and frameworks. You can find my skills below.
                 </p>
                 <div className='flex flex-row justify-start mt-8'>
                     <TabButton 

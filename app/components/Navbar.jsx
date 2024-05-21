@@ -1,6 +1,6 @@
 "use client";
 
-import Link from 'next/link'
+import Image from 'next/image'
 import { Link as ScrollLink } from 'react-scroll'
 import React, { useState } from 'react'
 import MenuOverlay from './MenuOverlay'
@@ -32,7 +32,12 @@ const Navbar = () => {
                 duration={500}
                 className="text-2xl md:text-5xl text-white font-semibold cursor-pointer"
             >
-                LOGO
+                <Image 
+                    src='/images/logo.png'
+                    alt="Logo"
+                    width={60}
+                    height={60}
+                />
             </ScrollLink>
             <div className='mobile-menu block md:hidden'>
                 {
