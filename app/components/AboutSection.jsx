@@ -51,7 +51,7 @@ const AboutSection = () => {
             <div className='mt-4 md:mt-0 text:left flex flex-col h-full'>
                 <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
                 <p className='text-base lg:text-lg'>
-                    Hey there! I am Yash, a final year B.Tech student from IIT Guwahati. I am majoring in Electronics and Communication Engineering and the fact that I am not interested in my major is proved by the existence of this website. I am a self-taught developer and love to build things that make a difference. This passion drives me to learn new technologies and frameworks. You can find my skills below.
+                Hello! I'm Yash, a final year B.Tech student at IIT Guwahati, majoring in Electronics and Communication Engineering. While my academic background is rooted in ECE, my true passion lies in software development. As a self-taught developer, I am driven by the desire to build innovative solutions that make a difference. This enthusiasm propels me to continually learn new technologies and frameworks. Below, you can explore my skills and projects.
                 </p>
                 <div className='flex flex-row justify-start mt-8'>
                     <TabButton 
