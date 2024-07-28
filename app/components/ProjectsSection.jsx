@@ -36,6 +36,15 @@ const PROJECTS = [
         description: 'A note making application inspired by Notion. It supports authentication, switching between light and dark modes, adding, deleting and restoring a note.',
         gitUrl: "https://github.com/yashhkataria/jotion-next13.git",
         previewUrl: "https://jotion-yash.vercel.app/"
+    },
+
+    {
+        id: 5,
+        imageUrl: '/images/projects/5.jpg',
+        title: 'Image Color Picker',
+        description: 'A simple application for laptops which helps frontend devs to get the exact color from an image (No need to waste time in asking the color code from designers).',
+        gitUrl: "https://github.com/yashhkataria/image-color-picker.git",
+        previewUrl: "https://image-color-picker-phi.vercel.app/"
     }
 ]
 
