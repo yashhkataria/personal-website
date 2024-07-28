@@ -53,7 +53,7 @@ const HeroSection = () => {
             <div className="col-span-5 place-self-center mt-8 lg:mt-0">
                 <div className="rounded-full bg-[#181818] w-[300px] h-[300px] lg:w-[400px] lg:h-[400px]">
                     <Image
-                        src='/images/hero-image.png'
+                        src='/images/hero-img-cropped.jpg'
                         alt='Hero Image'
                         className='rounded-full'
                         width={400}
