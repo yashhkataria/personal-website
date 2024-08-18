@@ -13,7 +13,8 @@ const TAB_DATA = [
                 <li><b>Languages - </b>C/C++, Python</li>
                 <li><b>Web Development - </b>React.js, Node.js, Next.js, Express</li>
                 <li><b>App Development - </b>Flutter</li>
-                <li><b>Databases - </b>MySQL, MongoDB</li>
+                <li><b>Databases - </b>MySQL, MongoDB, ArangoDB</li>
+                <li><b>Cloud and DevOps - </b>Git, GitHub, AWS, Shell Scripting</li>
             </ul>
         )
     },
