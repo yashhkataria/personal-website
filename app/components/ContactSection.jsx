@@ -20,7 +20,7 @@ const ContactSection = () => {
                     <Image src={GithubIcon} alt='Github Icon' />
                 </Link>
 
-                <Link href='https://www.linkedin.com/in/yash-kataria-4839a01b3'>
+                <Link href='https://www.linkedin.com/in/yashkataria15'>
                     <Image src={LinkedinIcon} alt='LinkedIn Icon' />
                 </Link>
             </div>
