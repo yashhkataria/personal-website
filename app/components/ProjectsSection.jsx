@@ -8,7 +8,7 @@ const PROJECTS = [
         title: 'Techniche Website',
         description: 'The website of the annual techno-management fest of IIT Guwahati to take registrations and showcase events.',
         gitUrl: "https://github.com/IITG-Techniche/Techniche-23",
-        previewUrl: "https://techniche.org"
+        previewUrl: "https://techniche.org.in"
     },
 
     {
