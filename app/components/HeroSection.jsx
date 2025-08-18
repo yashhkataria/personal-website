@@ -22,13 +22,11 @@ const HeroSection = () => {
                         sequence = {[
                             "Yash",
                             1000,
-                            "an Engineering Student",
+                            "a software engineer",
                             1000,
-                            "a Web Developer",
+                            "a problem solver",
                             1000,
-                            "an App Developer",
-                            1000,
-                            "a Machine Learning enthusiast",
+                            "a fitness enthusiast",
                             1000,
                             // "a Competitive Programmer",
                             // 1000
@@ -40,7 +38,7 @@ const HeroSection = () => {
                     />
                 </h1>
                 <p className="text-[#ADB7BE] mb-2 text-lg lg:text-xl">
-                Dedicated and results-driven student with a passion for technology and its use for problem-solving. I thrive on challenges and am known for my ability to deliver impactful solutions that positively impact organizations.
+                Dedicated and results-driven engineer with a passion for technology and its use for problem-solving. I thrive on challenges and am known for my ability to deliver impactful solutions that positively impact organizations.
                 </p>
                 <div>
                     <a 

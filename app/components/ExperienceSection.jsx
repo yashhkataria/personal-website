@@ -5,13 +5,20 @@ import ExperienceCard from './ExperienceCard';
 
 const EXPERIENCES = [
     {
+        id: 2,
+        imageUrl: '/images/experiences/deutsche-bank.jpg',
+        company: 'Deutsche Bank',
+        title: 'Software Engineer',
+        duration: 'May 2025 - Present'
+    },
+
+    {
         id: 1,
         imageUrl: '/images/experiences/spilll.jpg',
         company: 'Spilll',
         title: 'SWE Intern',
-        duration: 'May 2024 - July 2024',
-        link: 'https://spilll.app',
-    },
+        duration: 'May 2024 - July 2024'
+    }
     // {
     //     id: 2,
     //     imageUrl: '/images/experiences/google.jpg',
