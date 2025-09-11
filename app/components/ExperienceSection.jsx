@@ -9,7 +9,7 @@ const EXPERIENCES = [
         imageUrl: '/images/experiences/deutsche-bank.jpg',
         company: 'Deutsche Bank',
         title: 'Software Engineer',
-        duration: 'May 2025 - Present'
+        duration: 'July 2025 - Present'
     },
 
     {
