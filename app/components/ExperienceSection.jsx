@@ -5,11 +5,19 @@ import ExperienceCard from './ExperienceCard';
 
 const EXPERIENCES = [
     {
+        id: 3,
+        imageUrl: '/images/experiences/blinkit.jpg',
+        company: 'Blinkit',
+        title: 'SDE 1',
+        duration: 'April 2026 - Present'
+    },
+
+    {
         id: 2,
         imageUrl: '/images/experiences/deutsche-bank.jpg',
         company: 'Deutsche Bank',
-        title: 'Software Engineer',
-        duration: 'July 2025 - Present'
+        title: 'SDE 1',
+        duration: 'July 2025 - April 2026'
     },
 
     {
@@ -22,15 +30,15 @@ const EXPERIENCES = [
     // {
     //     id: 2,
     //     imageUrl: '/images/experiences/google.jpg',
-    //     company: 'Google India',
-    //     title: 'SWE Intern',
+    //     company: 'Google',
+    //     title: 'SWE III',
     //     duration: 'May 2023 - July 2023',
     // },
     // {
     //     id: 3,
-    //     imageUrl: '/images/experiences/amazon.jpg',
-    //     company: 'Amazon India',
-    //     title: 'SDE Intern',
+    //     imageUrl: '/images/experiences/microsoft.jpg',
+    //     company: 'Microsoft',
+    //     title: 'SDE II',
     //     duration: 'Jan 2024 - Mar 2024',
     // },
 ];
@@ -60,23 +68,36 @@ const ExperienceSection = () => {
 
     return (
         <section id="experience" className="py-4 overflow-hidden">
-            <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+            <h2 className="text-center 
+                           text-4xl 
+                           font-bold
+                         text-white 
+                           mt-4 
+                           mb-8 
+                           md:mb-12">
                 Work Experience
             </h2>
             <div 
                 ref={scrollContainerRef} 
-                className="flex space-x-8 px-4 md:px-12" 
-                style={{ 
-                    width: '90vw', 
+                className="flex 
+                           space-x-8 
+                           px-4 
+                           md:px-12" 
+                style={{
                     overflowX: 'scroll', 
                     overflowY: 'hidden', 
                     whiteSpace: 'nowrap',
-                    scrollbarWidth: 'none'
+                    scrollbarWidth: 'none',
                 }}
             >
                 {EXPERIENCES.map((project) => (
                     <div 
-                        className="flex-shrink-0 w-9/12 sm:w-4/5 md:w-3/4 lg:w-2/3 xl:w-5/6" 
+                        className="flex-shrink-0 
+                                   w-9/12 
+                                   sm:w-4/5 
+                                   md:w-3/4 
+                                   lg:w-2/3 
+                                   xl:w-5/6" 
                         key={project.id}
                     >
                         <ExperienceCard

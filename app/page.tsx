@@ -12,7 +12,7 @@ export default function Home() {
       <div className="z-[20]">
         <Navbar />
       </div>
-      <div className="container mt-24 mx-auto px-12 py-4">
+      <div className="container mt-32 md:mt-24 mx-auto px-4 sm:px-8 md:px-12 py-4">
         <HeroSection />
         <AboutSection />
         <ExperienceSection />

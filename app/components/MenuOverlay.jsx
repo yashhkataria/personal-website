@@ -1,5 +1,4 @@
 import React from 'react'
-import NavLink from './NavLink'
 import { Link as ScrollLink } from 'react-scroll'
 
 const MenuOverlay = ({ links }) => {
@@ -11,7 +10,13 @@ const MenuOverlay = ({ links }) => {
                   to={link.path}
                   smooth={true}
                   duration={500}
-                  className="flex flex-col py-4 items-center text-[#ADB7BE] hover:text-white cursor-pointer"
+                  className="flex 
+                             flex-col 
+                             py-4 
+                             items-center 
+                             text-[#ADB7BE] 
+                             hover:text-white 
+                             cursor-pointer"
                   onClick={(e) => {
                     e.preventDefault();
                   }}
