@@ -10,7 +10,7 @@ const TAB_DATA = [
         id: "Skills",
         content: (
             <ul className='list-disc pl-2'>
-                <li><b>Languages - </b>C/C++, Java, Python, JavaScript, Go</li>
+                <li><b>Languages - </b>C/C++, Java, Go, Python, JavaScript</li>
                 <li><b>Web Development - </b>React.js, Next.js, Node.js, SpringBoot</li>
                 <li><b>App Development - </b>Flutter</li>
                 <li><b>Database Management - </b>MySQL, MongoDB, ArangoDB, DynamoDB</li>
