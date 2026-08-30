@@ -37,46 +37,37 @@ const PROJECTS = [
         gitUrl: "https://github.com/yashhkataria/jotion-next13.git",
         previewUrl: "https://jotion-yash.vercel.app/"
     },
-
-    {
-        id: 5,
-        imageUrl: '/images/projects/5.jpg',
-        title: 'Image Color Picker',
-        description: 'A simple application for laptops which helps frontend devs to get the exact color from an image.',
-        gitUrl: "https://github.com/yashhkataria/image-color-picker.git",
-        previewUrl: "https://image-color-picker-phi.vercel.app/"
-    }
 ]
 
 const ProjectsSection = () => {
-  return (
-    <section id="projects">
-        <h2 className='text-center 
+    return (
+        <section id="projects">
+            <h2 className='text-center 
                        text-4xl 
                        font-bold 
                        text-white 
                        mt-4 
                        mb-8 
                        md:mb-12'>
-            My Projects
-        </h2>
-        <div className='grid 
+                My Projects
+            </h2>
+            <div className='grid 
                         md:grid-cols-3 
                         gap-8 
                         md:gap-12'>
-            {PROJECTS.map((project) => (
-                <ProjectsCard 
-                    key={project.id}
-                    title={project.title}
-                    description={project.description}
-                    imgUrl={project.imageUrl}
-                    gitUrl={project.gitUrl}
-                    previewUrl={project.previewUrl}
-                />
-            ))}
-        </div>
-    </section>
-  )
+                {PROJECTS.map((project) => (
+                    <ProjectsCard
+                        key={project.id}
+                        title={project.title}
+                        description={project.description}
+                        imgUrl={project.imageUrl}
+                        gitUrl={project.gitUrl}
+                        previewUrl={project.previewUrl}
+                    />
+                ))}
+            </div>
+        </section>
+    )
 }
 
 export default ProjectsSection
