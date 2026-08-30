@@ -69,11 +69,11 @@ const AboutSection = () => {
                                mb-4'>About Me</h2>
                     <p className='text-base 
                               lg:text-lg'>
-                        I'm a Software Engineer at Blinkit, working on backend-for-frontend systems that aggregate and
+                        I am a Software Engineer at Blinkit, working on backend-for-frontend systems that aggregate and
                         transform data from multiple upstream services into client-specific experiences for Android and iOS.
                         Previously, I worked at Deutsche Bank on AI-powered automation for trade document workflows, and
                         have experience building web applications, backend systems, and performance-oriented software.
-                        I'm particularly interested in backend engineering, distributed systems, and building reliable products at scale.
+                        I am particularly interested in backend engineering, distributed systems, and building reliable products at scale.
                     </p>
                     <div className='flex 
                                 flex-row 
